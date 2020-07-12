@@ -17,4 +17,8 @@ Warning: to protect your hearing, only run this at low volume the first time. Ru
 5. Click on the `+` symbol in the UI of the Shred editor.
 6. Refer to the log to get a sense of where your frequency perception begins to dip.
 
+# Study
 
+I've found a course on Kadenze teaching ChucK which looks great, and will use that to add structure to ongoing explorations.
+
+- https://www.kadenze.com/courses/introduction-to-real-time-audio-programming-in-chuck
