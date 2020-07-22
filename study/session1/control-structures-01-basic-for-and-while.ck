@@ -1,9 +1,16 @@
 
+// sound network
+SinOsc s => dac;
+
+
 // for loop
 
-for( 0 => int i; i < 4; i++)
+for( 20 => int i; i < 400; i++)
 {
+	// print the value of i
 	<<< i >>>;
-	1::second => now;
+	// chuck i to the frequency 
+	i => s.freq;
+	0.1::second => now;
 }
 
