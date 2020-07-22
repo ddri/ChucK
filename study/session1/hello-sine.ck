@@ -9,7 +9,7 @@ SinOsc s => dac;
 
 // print program name
 
-<<< "Hello Sine!" >>>
+<<< "Hello Sine!" >>>;
 
 // set volume to 0.6 
 // .gain is a method for gain
