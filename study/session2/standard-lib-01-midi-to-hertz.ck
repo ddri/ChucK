@@ -6,8 +6,10 @@ TriOsc s => dac;
 
 for( 0 => int i; i <= 127; i++ )
 {
-	Std.mtof(i) => float Hz; // midi to hertz
-	<<< i, Hz >>> // print out i and Hz
+	// midi to hertz
+	Std.mtof(i) => float Hz; 
+	// print out i and Hz
+	<<< i, Hz >>>; 
 
 	200::ms => now;
 }
